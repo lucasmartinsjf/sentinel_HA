@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#Senha Redis
 Secret_Redis=mudar@123
 
 # Iniciando cluster redis
