@@ -8,3 +8,7 @@ RUN mkdir -p /etc/redis &&\
     chown redis:redis /etc/redis/redis-entrypoint.sh
 RUN chmod +x /etc/redis/redis-entrypoint.sh
 ENTRYPOINT [ "/etc/redis/redis-entrypoint.sh" ]
+
+
+
+

@@ -21,3 +21,8 @@ if [ "$IS_SLAVE" == true ]; then
 else
     redis-server
 fi
+
+
+
+
+
