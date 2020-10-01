@@ -6,12 +6,11 @@ Itens necessários:
 # Deploy Para ambiente Windows com WSL 
 - Realizar clone do projeto
 - Execute o Arquivo Convert-EOL.ps1 ---> no Powershell .\Convert-EOL.ps1
- - Abra o terminal (WSL ou GitBash ) e execute esse sed -i 's/\r$//' deploy.sh
-Executar arquivo deploy.sh ->> sh deploy.sh ou ./deploy.sh
+- Executar arquivo deploy.sh ->> sh deploy.sh ou ./deploy.sh
 
 # Deploy Ambiente Unix ou Linux 
 - Realizar clone do projeto
-Executar arquivo deploy.sh ->> sh deploy.sh ou ./deploy.sh
+- Executar arquivo deploy.sh ->> sh deploy.sh ou ./deploy.sh
 
 
 # Mudar senha de acesso Redis
@@ -24,6 +23,7 @@ Executar arquivo deploy.sh ->> sh deploy.sh ou ./deploy.sh
 
   - Para retornar o container execute docker start redis01 && ./sync.sh 
  
+
 
 
 

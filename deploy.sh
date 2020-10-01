@@ -16,6 +16,3 @@ echo "inserindo senha padrão"
 docker exec redis01 redis-cli -a $Secret_Redis CONFIG SET requirepass $Secret_Redis
 docker exec redis02 redis-cli -a $Secret_Redis CONFIG SET requirepass $Secret_Redis
 docker exec redis03 redis-cli -a $Secret_Redis CONFIG SET requirepass $Secret_Redis
-
-
-
