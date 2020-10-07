@@ -8,8 +8,7 @@ services:
       - host
     env_file:
       - './redis/env/master_variables.env'
-    volumes: 
-      - "./logs/redis.log:/var/log/sentinel.log"
+  
 
   redis02:
     container_name: redis02
@@ -20,8 +19,7 @@ services:
       - host
     env_file:
       - './redis/env/slave_variables.env'
-    volumes: 
-      - "./logs/redis.log:/var/log/sentinel.log"
+    
 
   redis03:
     container_name: redis03
@@ -32,8 +30,14 @@ services:
       - host
     env_file:
       - './redis/env/slave_variables.env'
-    volumes: 
-      - "./logs/redis.log:/var/log/sentinel.log"
+  
+  redisinsight:
+    container_name: redisinsight
+    image: redislabs/redisinsight
+    ports:
+      - "8001:8001"
+    networks:
+      - host
   proxy:
     build: ./haproxy
     depends_on:
