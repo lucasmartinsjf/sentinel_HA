@@ -23,8 +23,9 @@ Itens necessários:
 
   - Para retornar o container execute docker start redis01 && ./sync.sh 
  
-
-
+# Monitoramento e testes
+ - Acessar http://"Seu_ip_local":8001, onde irá abrir o RedisInsight.
+ - Nele você poderá monitorar e inserir registros sem a necessidade de instalaçao de softawares locais.
 
 
 
