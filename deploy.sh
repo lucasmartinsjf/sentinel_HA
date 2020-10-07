@@ -1,6 +1,6 @@
 #!/bin/bash
-
-Secret_Redis=mudar@123
+#Senha Padrão master
+Secret_Redis="mudar@123"
 
 # Iniciando cluster redis
 echo "Iniciando cluster redis"
