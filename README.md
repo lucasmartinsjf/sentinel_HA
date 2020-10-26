@@ -14,7 +14,8 @@ Itens necessários:
 
 
 # Mudar senha de acesso Redis
- - Alterar no arquivo debloy Variavel "Secret_Redis" e inserir sua senha 
+ - Alterar no arquivo deploy.sh Variavel "Secret_Redis" e inserir sua senha 
+ - Alterar no arquivo sync.sh Variavel "Secret_Redis" e inserir sua senha 
  - Alterar no arquivo localizado em haproxy/haproxy.cfg a linha tcp-check send AUTH\ "sua_senha"\r\n
 
  # Teste de Failover
